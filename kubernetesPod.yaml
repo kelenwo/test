@@ -20,13 +20,13 @@ spec:
        value: "https://axumt.com/jenkins/"
     resources:
         limits:
-          memory: 256Mi
-          cpu: 100m
+          memory: 200Mi
+          cpu: 90m
         requests:
-          cpu: 50m
-          memory: 120Mi
+          cpu: 40m
+          memory: 100Mi
   - name: shell
-    image: debian
+    image: ubuntu
     command:
     - sleep
     args:
