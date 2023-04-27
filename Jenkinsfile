@@ -5,7 +5,7 @@ node('master') {
      stage ('Prebuuild') {
 	echo "Running Paser pull request object"
 // 	     def script = parser pullRequest
-//	requireJiraId pullRequest
+	requireJiraId pullRequest
 
     }
 }
