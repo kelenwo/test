@@ -6,13 +6,13 @@
 
     <!-- Define individual Git repositories -->
     <project remote="mkvids"
-             name="mkvids"
+             name="mkvids2"
              path="projects/mkvids"
              revision="master"
     />
 
     <project remote="eprocloud"
-             name="eprocloud"
+             name="eprocloud2"
              path="projects/eprocloud"
              revision="cmis"
     />
