@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="mkvids" fetch="https://github.com/kelenwo/mkvids.git" />
-    <remote name="eprocloud" fetch="https://github.com/kelenwo/eprocloud.git" />
+    <remote name="mkvids" fetch="https://github.com/kelenwo" />
+    <remote name="eprocloud" fetch="https://github.com/kelenwo" />
 
     <!-- Define individual Git repositories -->
     <project remote="mkvids"
