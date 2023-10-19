@@ -5,12 +5,12 @@
     <remote name="eprocloud" fetch="https://github.com/kelenwo/eprocloud.git" />
 
     <!-- Define individual Git repositories -->
-    <project name="mkvids"
+    <project remote="mkvids"
              path="projects/mkvids"
              revision="master"
     />
 
-    <project name="eprocloud"
+    <project remote="eprocloud"
              path="projects/eprocloud"
              revision="cmis"
     />
