@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="mkvids" fetch="https://github.com/kelenwo/mkvids.git" />
+    <remote name="eprocloud" fetch="https://github.com/kelenwo/eprocloud.git" />
+
+    <!-- Define individual Git repositories -->
+    <project name="mkvids"
+             path="projects/mkvids"
+             remote="mkvids"
+             revision="master"
+    />
+
+    <project name="eprocloud"
+             path="projects/eprocloud"
+             remote="eprocloud"
+             revision="cmis"
+    />
+
+</manifest>
