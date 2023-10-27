@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="solution-suite" fetch="git@github.com:curbcutOS" />
-    <remote name="mkvids" fetch="git@github.com:kelenwo" />
+    <remote name="curbcutos" fetch="git@github.com:curbcutOS" />
+    <remote name="github" fetch="git@github.com:kelenwo" />
     
 
     <!-- Define individual Git repositories -->
-    <project remote="mkvids"
+    <project remote="github"
              name="mkvids"
              path="projects/mkvids"
              revision="master"
     />
 
-    <project remote="solution-suite"
+    <project remote="curbcutos"
              name="solution-suite"
              path="projects/solution-suite"
              revision="develop"
