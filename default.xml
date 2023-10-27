@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <remote name="mkvids" fetch="https://github.com/kelenwo" />
     <remote name="solution-suite" fetch="git@github.com:curbcutOS" />
+    <remote name="mkvids" fetch="git@github.com:kelenwo" />
+    
 
     <!-- Define individual Git repositories -->
     <project remote="mkvids"
