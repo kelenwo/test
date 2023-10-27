@@ -2,7 +2,7 @@
 <manifest>
 
     <remote name="mkvids" fetch="https://github.com/kelenwo" />
-    <remote name="eprocloud" fetch="https://github.com/kelenwo" />
+    <remote name="solution-suite" fetch="git@github.com:curbcutOS" />
 
     <!-- Define individual Git repositories -->
     <project remote="mkvids"
@@ -11,10 +11,10 @@
              revision="master"
     />
 
-    <project remote="eprocloud"
-             name="eprocloud2"
-             path="projects/eprocloud"
-             revision="cmis"
+    <project remote="solution-suite"
+             name="solution-suite"
+             path="projects/solution-suite"
+             revision="develop"
     />
 
 </manifest>
