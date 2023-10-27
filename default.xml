@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="curbcutos" fetch="git@github.com:kelenwo" />
-    <remote name="github" fetch="git@github.com:kelenwo" />
+    <remote name="curbcutos" fetch="" />
+    <remote name="github" fetch="" />
     
 
     <!-- Define individual Git repositories -->
     <project remote="github"
-             name="mkvids"
+             name="mkvids.git"
              path="projects/mkvids"
              revision="master"
     />
 
     <project remote="curbcutos"
-             name="tasks"
+             name="tasks.git"
              path="projects/tasks"
              revision="master"
     />
