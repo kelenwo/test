@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="curbcutos" fetch="git@github.com:curbcutOS" />
+    <remote name="curbcutos" fetch="git@github.com:kelenwo" />
     <remote name="github" fetch="git@github.com:kelenwo" />
     
 
@@ -12,9 +12,9 @@
     />
 
     <project remote="curbcutos"
-             name="solution-suite"
-             path="projects/solution-suite"
-             revision="develop"
+             name="tasks"
+             path="projects/tasks"
+             revision="master"
     />
 
 </manifest>
