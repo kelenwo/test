@@ -6,13 +6,13 @@
 
     <!-- Define individual Git repositories -->
     <project remote="github"
-             name="mkvids.git"
+             name="mkvids"
              path="projects/mkvids"
              revision="master"
     />
 
     <project remote="curbcutos"
-             name="tasks.git"
+             name="tasks"
              path="projects/tasks"
              revision="master"
     />
