@@ -6,7 +6,7 @@
 
     <!-- Define individual Git repositories -->
     <project remote="mkvids"
-             name="mkvids2"
+             name="mkvids"
              path="projects/mkvids"
              revision="master"
     />
