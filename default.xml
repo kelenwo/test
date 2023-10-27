@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="curbcutos" fetch="" />
-    <remote name="github" fetch="" />
+    <remote name="curbcutos" fetch="git@github.com:kelenwo/tasks.git" />
+    <remote name="github" fetch="git@github.com:kelenwo/tasks.git" />
     
 
     <!-- Define individual Git repositories -->
